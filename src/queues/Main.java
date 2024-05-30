@@ -22,6 +22,16 @@ public class Main {
         //poll - Retrieves and removes the head of this queue, or returns null if this queue is empty.
         // move - rozni sie od poll, ze jesli pusta NoSuchElementException
 
+        //add - Wstawia określony element do tej kolejki, jeśli można to zrobić natychmiast bez naruszania ograniczeń pojemności, zwracając wartość true po powodzeniu i rzucając wyjątek IllegalStateException, jeśli aktualnie nie ma dostępnego miejsca.
+        // offer - Wstawia określony element do tej kolejki, jeśli można to zrobić natychmiast bez naruszania ograniczeń pojemności, zwracając wartość true po powodzeniu i false, jeśli aktualnie nie ma dostępnego miejsca.
+        // put - Wstawia określony element do tej kolejki, czekając w razie potrzeby na wolne miejsce.
+        //peek - Pobiera, ale nie usuwa, nagłówek tej kolejki lub zwraca wartość null, jeśli kolejka jest pusta.
+        // element - rozni sie od peek tylko tym, ze jesli pusta zwroci NoSuchElementException
+        //poll - Pobiera i usuwa nagłówek tej kolejki lub zwraca wartość null, jeśli kolejka jest pusta.
+        // move - rozni sie od poll, ze jesli pusta NoSuchElementException
+
+
+
 
         BlockingQueue<String> blockingQueue = new ArrayBlockingQueue<>(10);
 
