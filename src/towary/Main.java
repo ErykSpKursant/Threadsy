@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         // https://sdkp.pjwstk.edu.pl/html/staskshtml/S_TOWARY/S_TOWARY.html
-        String filePath = "C:/Users/Asus/IdeaProjects/Threadsy/src/towary/products";
+        String filePath = "C:/Users/Asus/IdeaProjects/Threadsy/src/towary/products2.txt";
         Queue<Product> queue = new LinkedList<>();
         Object lock = new Object();
         Product end = new Product(-1, -1);
